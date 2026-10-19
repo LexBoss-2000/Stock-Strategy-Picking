@@ -1,0 +1,48 @@
+{
+    "root_dir": "E:/stock/stock_data/", 
+    "ftp_ip": "192.168.0.101", 
+    "ftp_port": 21, 
+    "ftp_user": "lees", 
+    "ftp_pwd": "qqq", 
+    "ths_js": "application/config/", 
+    "bg_pic_name": "app_datas/images/loading.png",
+    "data_server_exe":"server/StockServer.exe",
+    "jqka_block_dir":"D:/ProgramData/stock_soft/tjqka_jrds92039/",
+	"custom_stock_list_url":"configs/custom/cy_lt10_50_90.csv",
+	"stock_conment_url":"configs/stock_conment.json",
+    "stock_custom_flag_url":"configs/custom_flag_config.json",
+	"table_config_dir":"configs/table/",
+    "tick_data_dir":"J:/new_stock/csv_datas/t10jqka/level2/",
+    "log_path":"log/",
+	"trade_ide":"trade_soft/cjzq/xiadan.exe",
+    "code_ide":"code_ide/vs_code/Code.exe",
+    "app_exe":"BaseApplication.exe",
+    "screen_2k_width":2560,
+    "sql_table_name_list":["a_market_data","a_market_lv2_data","a_market_stock_static_data"],
+    "market_trade_key_word_list":[
+        "$strategy:s1#2025-07-04",
+        "$strategy:s2#2025-07-21",
+        "$strategy:s1_all",
+        "$strategy:s2_all",
+        "@change:>=xxx;<=xxx;",
+        "@turn:>=xxx;<=xxx;",
+        "@cap_amount:>=xxx;<=xxx;",
+        "@cap_amount:>=1000000000;<=3000000000;",
+        "@cap_amount:>=1500000000;<=5000000000;",
+        "@cap_amount:>=1500000000;<=10000000000;",
+        "#draw:",
+        "^table:",
+        "%2025-06-30",
+        "%pre_trade_date",
+        "%next_trade_date",
+        "%lastest",
+        "reset"
+    ],
+    "market_data_key_list":[
+        ["date","code","high_price","low_price","open_price","close_price","pre_close_price","change","vol","amount","turn","ma5","ma10","ma20","ma30","ma60","macd","diff","dea"],
+        ["date","code","hang_buy_vol","hang_sell_vol","hang_buy_count","hang_sell_count","drop_buy_vol","drop_sell_vol","drop_buy_count","drop_sell_count"],
+        ["ssts","market"],
+        ["cap_amount","cap_vol","zt"]
+    ]
+
+}

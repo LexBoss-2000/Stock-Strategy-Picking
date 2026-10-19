@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<![CDATA[
+height:表头的高度;
+color:表头的字体颜色;
+item_height:每一行的高度;
+header_name:表头文字;
+item_width:每一行对象的宽度;
+item_key:每一行对象的数据的key;
+item_color:每一行对象的数据的颜色;
+num_style:每一行对象的数据的表现形式;
+compare_key:判断>0,<0,=0的颜色的表现;
+pos:对象方位;
+child:子对象数量;
+]]>
+
+<Table id="10001" name="bk_fund_flow">
+	<Header height="25" color="gray-190" item_height="25">
+		<Item child="0" header_name="交易日期" item_width="-1" item_key="date" item_color="" num_style="2" compare_key="0"/>
+		<Item child="0" header_name="板块名字" item_width="-1" item_key="block_name" item_color="" num_style="2" compare_key="0"/>
+		<Item child="0" header_name="涨跌幅" item_width="-1" item_key="change" item_color="" num_style="1" compare_key="1"/>
+		<Item child="0" header_name="上涨个数" item_width="-1" item_key="up_count" item_color="" num_style="2" compare_key="0"/>
+		<Item child="0" header_name="下跌个数" item_width="-1" item_key="down_count" item_color="" num_style="2" compare_key="0"/>
+		<Item child="0" header_name="总个数" item_width="-1" item_key="stock_count" item_color="" num_style="2" compare_key="0"/>
+		<Item child="0" header_name="涨停个数" item_width="-1" item_key="up_limit_count" item_color="" num_style="2" compare_key="0"/>
+		<Item child="0" header_name="跌停个数" item_width="-1" item_key="down_limit_count" item_color="" num_style="2" compare_key="0"/>
+		<Item child="0" header_name="流入金额" item_width="-1" item_key="ff_in_amount" item_color="" num_style="0" compare_key="0"/>
+		<Item child="0" header_name="流出金额" item_width="-1" item_key="ff_out_amount" item_color="" num_style="0" compare_key="0"/>
+		<Item child="0" header_name="流入净额" item_width="-1" item_key="ff_jin_amount" item_color="" num_style="0" compare_key="1"/>
+		<Item child="0" header_name="挂买金额" item_width="-1" item_key="hang_buy_amount" item_color="" num_style="0" compare_key="0"/>
+		<Item child="0" header_name="挂卖金额" item_width="-1" item_key="hang_sell_amount" item_color="" num_style="0" compare_key="0"/>
+		<Item child="0" header_name="撤买率" item_width="-1" item_key="drop_buy_rate" item_color="" num_style="1" compare_key="0"/>
+		<Item child="0" header_name="撤卖率" item_width="-1" item_key="drop_sell_rate" item_color="" num_style="1" compare_key="0"/>
+		<Item child="0" header_name="挂大买额" item_width="-1" item_key="hang_big_buy_amount" item_color="" num_style="0" compare_key="0"/>
+		<Item child="0" header_name="挂大卖额" item_width="-1" item_key="hang_big_sell_amount" item_color="" num_style="0" compare_key="0"/>
+		<Item child="0" header_name="撤大买率" item_width="-1" item_key="drop_big_buy_rate" item_color="" num_style="1" compare_key="0"/>
+		<Item child="0" header_name="撤大卖率" item_width="-1" item_key="drop_big_sell_rate" item_color="" num_style="1" compare_key="0"/>
+		<Item child="0" header_name="大成交买额" item_width="-1" item_key="deal_big_buy_amount" item_color="" num_style="0" compare_key="0"/>
+		<Item child="0" header_name="大成交卖额" item_width="-1" item_key="deal_big_sell_amount" item_color="" num_style="0" compare_key="0"/>
+		<Item child="0" header_name="大成交买率" item_width="-1" item_key="deal_big_buy_rate" item_color="" num_style="1" compare_key="0"/>
+		<Item child="0" header_name="大成交卖率" item_width="-1" item_key="deal_big_sell_rate" item_color="" num_style="1" compare_key="0"/>
+		<Item child="0" header_name="主大成交买率" item_width="-1" item_key="zd_deal_big_buy_rate" item_color="1" num_style="" compare_key="0"/>
+		<Item child="0" header_name="主大成交卖率" item_width="-1" item_key="zd_deal_big_sell_rate" item_color="1" num_style="" compare_key="0"/>
+		<Item child="0" header_name="市场占比" item_width="-1" item_key="market_rate" item_color="" num_style="1" compare_key="0"/>
+		<Item child="0" header_name="成交买率" item_width="-1" item_key="deal_buy_rate" item_color="" num_style="1" compare_key="0"/>
+		<Item child="0" header_name="成交卖率" item_width="-1" item_key="deal_sell_rate" item_color="" num_style="1" compare_key="0"/>
+		<Item child="0" header_name="挂大买率" item_width="-1" item_key="hang_big_buy_rate" item_color="" num_style="1" compare_key="0"/>
+		<Item child="0" header_name="挂大卖率" item_width="-1" item_key="hang_big_sell_rate" item_color="" num_style="1" compare_key="0"/>
+	</Header>
+</Table>
