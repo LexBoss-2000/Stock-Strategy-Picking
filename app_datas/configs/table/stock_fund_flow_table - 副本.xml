@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<![CDATA[
+row_height:行高;
+color:字体颜色;
+name:表头文字;
+width:每一行对象的宽度;
+data_key:每一行对象的数据的key;
+show_type:每一行对象的数据的表现形式;0,int;1,float;2,str;3,%;4,rect_graphic;
+num_fixed:数据需要保留后几位 
+compare_key:判断>0,<0,=0的颜色的表现;
+sort_enable:能否排序;
+menu_enable:能否右键菜单;
+sel_enable:是否能够选择;
+sel_type:选择类型;0,单元格;1,整行
+row_width_type：自动或自定义宽度;0,自动;1,自定义宽度
+]]>
+
+<Table id="10000" name="stock_fund_flow_table" row_height="25" row_width_type="1" sel_enable="1" sel_type="0" conner_width="50">
+	<Table_Header height="25" color="gray-180">
+		<Item name="日 期" width="95" color="gray-180" data_key="timestamp" show_type="2" num_fixed="0" sort_enable="1" menu_enable="0" compare_key="" compare_value=""/>
+		<Item name="开盘率" width="55" color="red,green,white" data_key="open" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value="0"/>
+		<Item name="最高率" width="55" color="red,green,white" data_key="high" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value="0"/>
+		<Item name="最低率" width="55" color="red,green,white" data_key="low" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value="0"/>
+		<Item name="涨跌幅" width="55" color="red,green,white" data_key="close" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value="0"/>
+		<Item name="换手率" width="55" color="gray-180" data_key="turn" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value="0"/>
+		<Item name="总挂单量" width="85" color="red" data_key="hang_vol" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="总撤单量" width="85" color="cyan" data_key="drop_vol" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="总成交量" width="85" color="yellow" data_key="deal_vol" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="总成交额" width="85" color="purple" data_key="deal_amount" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="流入金额" width="85" color="red" data_key="zd_deal_buy_amount" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="流出金额" width="85" color="green" data_key="zd_deal_sell_amount" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="净流入额" width="85" color="red,green,white" data_key="jl_deal_amount" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value="0"/>
+		<Item name="总撤单率" width="70" color="cyan" data_key="drop_rate" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="总成交率" width="70" color="yellow" data_key="deal_rate" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="挂买单量" width="83" color="red" data_key="hang_buy_vol" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="挂卖单量" width="83" color="green" data_key="hang_sell_vol" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="撤买率" width="55" color="purple" data_key="drop_buy_rate" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="撤卖率" width="55" color="white" data_key="drop_sell_rate" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="买成交量" width="80" color="red" data_key="zd_deal_buy_vol" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="卖成交量" width="80" color="green" data_key="zd_deal_sell_vol" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="主买率" width="55" color="purple" data_key="zd_deal_buy_rate" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="主卖率" width="55" color="white" data_key="zd_deal_sell_rate" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="挂大买单" width="80" color="red" data_key="hang_big_buy_vol" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="挂大卖单" width="80" color="green" data_key="hang_big_sell_vol" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="大买撤率" width="70" color="purple" data_key="drop_big_buy_rate" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="大卖撤率" width="70" color="white" data_key="drop_big_sell_rate" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="大买成交" width="80" color="red" data_key="big_deal_buy_vol" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="大卖成交" width="80" color="green" data_key="big_deal_sell_vol" show_type="1" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="大买率" width="55" color="purple" data_key="deal_big_buy_rate" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+		<Item name="大卖率" width="55" color="white" data_key="deal_big_sell_rate" show_type="3" num_fixed="2" sort_enable="1" menu_enable="1" compare_key="" compare_value=""/>
+	</Table_Header>
+</Table>
